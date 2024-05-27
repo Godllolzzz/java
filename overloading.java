@@ -25,8 +25,8 @@ class Student {
 class Overloading {
     public static void main(String[] args) {
         Student student = new Student("Sudarshan", 21);
-        student.printInfo(student.Age);
         student.printInfo();
+        student.printInfo(student.Age);
         student.printInfo(student.Name);
     }
 
